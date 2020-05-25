@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.side-nav {
+    height: 100%;
+    left:0;
+    top:0;
+    margin-left: 40px;
+    width: 300px;
+    position: fixed;
+}
+.side-nav ul{ 
+    list-style-type: none;
+}
+.side-nav li{
+    margin: 30px;
+}
+.side-nav a:hover{
+    color: black;
+}
+
+.side-nav a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content { 
+    float: center;
+    font-family: monospace;
+    margin-top: 200px;
+    margin-left: 450px;
+    height: auto;
+    line-height: 3em;
+
+}
+
+.social-links{
+
+    position: fixed;
+    bottom: 0;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.social-links li{
+    display: inline-block;
+    margin: 5px;
+}
+
+#name-heading{ 
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#profile-image{
+    width: 300px;
+    height: auto;
+}
